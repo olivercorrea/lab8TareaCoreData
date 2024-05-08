@@ -14,6 +14,8 @@
 		61C2D29A2BEBBFB900BAB503 /* lab8TareaCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61C2D2982BEBBFB900BAB503 /* lab8TareaCoreData.xcdatamodeld */; };
 		61C2D29C2BEBBFBC00BAB503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C2D29B2BEBBFBC00BAB503 /* Assets.xcassets */; };
 		61C2D29F2BEBBFBC00BAB503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C2D29D2BEBBFBC00BAB503 /* LaunchScreen.storyboard */; };
+		653BCE382BEBCD47005D7F30 /* ViewControllerCrearCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653BCE372BEBCD47005D7F30 /* ViewControllerCrearCurso.swift */; };
+		653BCE3C2BEBDB39005D7F30 /* Cursos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653BCE3B2BEBDB39005D7F30 /* Cursos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		61C2D29B2BEBBFBC00BAB503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61C2D29E2BEBBFBC00BAB503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61C2D2A02BEBBFBC00BAB503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653BCE372BEBCD47005D7F30 /* ViewControllerCrearCurso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCrearCurso.swift; sourceTree = "<group>"; };
+		653BCE3B2BEBDB39005D7F30 /* Cursos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cursos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				61C2D28F2BEBBFB900BAB503 /* AppDelegate.swift */,
 				61C2D2912BEBBFB900BAB503 /* SceneDelegate.swift */,
 				61C2D2932BEBBFB900BAB503 /* ViewController.swift */,
+				653BCE3B2BEBDB39005D7F30 /* Cursos.swift */,
 				61C2D2952BEBBFB900BAB503 /* Main.storyboard */,
+				653BCE372BEBCD47005D7F30 /* ViewControllerCrearCurso.swift */,
 				61C2D29B2BEBBFBC00BAB503 /* Assets.xcassets */,
 				61C2D29D2BEBBFBC00BAB503 /* LaunchScreen.storyboard */,
 				61C2D2A02BEBBFBC00BAB503 /* Info.plist */,
@@ -143,6 +149,8 @@
 			files = (
 				61C2D2942BEBBFB900BAB503 /* ViewController.swift in Sources */,
 				61C2D29A2BEBBFB900BAB503 /* lab8TareaCoreData.xcdatamodeld in Sources */,
+				653BCE3C2BEBDB39005D7F30 /* Cursos.swift in Sources */,
+				653BCE382BEBCD47005D7F30 /* ViewControllerCrearCurso.swift in Sources */,
 				61C2D2902BEBBFB900BAB503 /* AppDelegate.swift in Sources */,
 				61C2D2922BEBBFB900BAB503 /* SceneDelegate.swift in Sources */,
 			);

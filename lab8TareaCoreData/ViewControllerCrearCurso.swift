@@ -10,10 +10,7 @@ class ViewControllerCrearCurso: UIViewController {
     var anteriorVC = ViewController()
     
     @IBAction func agregarCurso(_ sender: Any) {
-        // Crear una instancia de Curso
         let curso = Cursos()
-        
-        // Asignar los valores del formulario a la instancia de Curso
         if let nombreCurso = txtNombreCurso.text {
             curso.nombreCurso = nombreCurso
         }
